@@ -1,0 +1,14 @@
+{
+    "data": {
+        "user": {
+            "name": "Trần Xuân Sơn",
+            "bio": "Software Engineer",
+            "avatarUrl": "https://avatars.githubusercontent.com/u/175097804?v=4",
+            "location": "Hanoi, Vietnam",
+            "pinnedItems": {
+                "totalCount": 0,
+                "edges": []
+            }
+        }
+    }
+}
