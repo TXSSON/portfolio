@@ -187,14 +187,14 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/download.png"), // bạn có thể đổi ảnh nếu muốn
-      projectName: "CI/CD System Simulation",
-      projectDesc: "Built a CI/CD pipeline simulation project during university: set up GitHub Actions, GitLab CI/CD, and Jenkins pipelines, wrote Dockerfiles, used virtual machines for lab environments, and configured Slack/SMS notifications. Implemented unit and integration tests.",
-      // footerLink: [
-      //   {
-      //     name: "View Project",
-      //     url: "#" // hoặc link tới repo nếu có
-      //   }
-      // ]
+      projectName: "AWS Cloud Infrastructure Deployment for CI/CD",
+      projectDesc: " Built a CI/CD environment on AWS using a VPC with public and private subnets, EC2 instances, Internet Gateway,and NAT Gateway. Hosted GitLab, Jenkins, SonarQube, and Docker Registry on public-subnet EC2 servers; deployed production, staging,and database servers in private subnets. Configured routing tables, Security Groups, and NACLs to ensure secure connectivity between CI/CD tools andapplication environments. Enabled automated build, test, and deployment pipelines connecting public CI/CD services to private workloads. Integrated code scanning, containerization, and environment-based deployments as part of the CI/CD workflow.",
+      footerLink: [
+        {
+          name: "View Architecture",
+          url: "https://my-resume-bucket-12345.s3.ap-southeast-1.amazonaws.com/cicd.png" // hoặc link tới repo nếu có
+        }
+      ]
     },
     {
       image: require("./assets/images/thinkbook.jpg"), // bạn có thể đổi ảnh nếu muốn
